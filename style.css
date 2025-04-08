@@ -54,4 +54,11 @@ article {
   padding: 10px;
   border: 5px solid rgb(141, 6, 175);
   margin: 0;
+  transition: background-color 0.3s;
+  display: flex;
+}
+
+.boks:hover {
+  background-color: rgb(141, 6, 175);
+  cursor: pointer;
 }
