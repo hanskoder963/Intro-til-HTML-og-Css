@@ -33,11 +33,18 @@ article {
   padding: 5px;
 }
 
-/* article {
-  border: solid 2px white;
-} */
-
-#javascriptlogo {
-  width: 7rem;
+.js {
+  width: 8rem;
   height: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "html5logo csslogo javascriptlogo"
+    "html css javascript";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 20px;
 }
