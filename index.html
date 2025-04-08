@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Intro til HTML/CSS" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Intro til HTML/CSS</title>
+  </head>
+  <body>
+    <!-- <style>
+      body {
+        background-color: aqua;
+      }
+    </style> -->
+    <header>
+      <h1>Intro til HTML/CSS</h1>
+      <h2>Vanlige elementer i HTML</h2>
+    </header>
+    <main>
+      <!-- Sekjoner er container elementer  som inneholder elementer andre elementer -->
+      <section>
+        <h3>Container elementer</h3>
+        <p>Conteiner elementer inneholder andre elementer</p>
+      </section>
+      <div>
+        <section>
+          <article>
+            <h3>
+              HTML<a href="https://www.w3schools.com/html/default.asp"
+                ><img src="./bilder/html5logo.png" alt="html logo"
+              /></a>
+              Klikk på logoen får link til w3schools
+            </h3>
+            <ul>
+              <li>
+                HTML står for "HyperText Markup Language" og er grunnlaget for å
+                strukturere innhold på nettet.
+              </li>
+              <li>
+                Det bruker tagger som :p: for avsnitt og :h1: for overskrifter
+                for å definere elementer på en nettside.
+              </li>
+              <li>
+                For eksempel, :img src="bilde.jpg" alt="Bilde": legger til et
+                bilde på siden.
+              </li>
+            </ul>
+          </article>
+          <article>
+            <h3>
+              Css<a href="https://www.w3schools.com/css/default.asp"
+                ><img src="./bilder/csslogo.png" alt="css logo"
+              /></a>
+              Klikk på logoen får link til w3schools
+            </h3>
+            <ul>
+              <li>
+                CSS, eller "Cascading Style Sheets", brukes til å style og
+                designe utseendet til HTML-elementer.
+              </li>
+              <li>
+                Med CSS kan du endre farger, skrifter og layout, som color:
+                blue; for blå tekst eller margin: 10px; for avstand.
+              </li>
+              <li>
+                Et eksempel er p { font-size: 16px; }, som setter
+                tekststørrelsen til alle avsnitt.
+              </li>
+            </ul>
+          </article>
+          <article>
+            <h3>
+              Javascript<a href="https://www.w3schools.com/js/default.asp"
+                ><img
+                  src="./bilder/JavaScript-Logo.png"
+                  id="javascriptlogo"
+                  alt="javascript logo"
+              /></a>
+              Klikk på logoen får link til w3schools
+            </h3>
+            <ul>
+              <li>
+                JavaScript er et programmeringsspråk som gjør nettsider
+                interaktive og dynamiske.
+              </li>
+              <li>
+                Du kan bruke det til å legge til funksjoner som knapper som
+                reagerer, for eksempel button.onclick = function() {
+                alert('Hei!'); };.
+              </li>
+              <li>
+                Det kan også manipulere HTML, som å endre tekst med
+                document.getElementById('id').innerHTML = 'Ny tekst';.
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
